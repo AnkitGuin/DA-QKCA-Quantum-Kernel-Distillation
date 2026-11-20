@@ -1,0 +1,11 @@
+﻿__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.venv/
+data/raw/
+data/external/
+*.pt
+*.npz
+*.log
+experiments/

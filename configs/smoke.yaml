@@ -1,0 +1,24 @@
+dataset:
+  name: synthetic
+  task: xor
+  n: 96
+  d: 7
+model:
+  qubits: 2
+  depth: 1
+  ansatz: chain
+  hidden: 12
+  embed: 4
+training:
+  epochs: 3
+  batch: 9
+  unroll_steps: 1
+  inner_lr: 0.08
+  teacher_lr: 0.025
+  student_lr: 0.03
+  teacher_weight: 0.5
+  beta: 0.8
+  alignment_weight: 0.1
+  selector_weight: 0.001
+  geometry_weight: 0.1
+  ridge: 0.12
